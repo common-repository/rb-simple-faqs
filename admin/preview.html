@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RBD FAQ Preview</title>
+    <!-- prevent this page from appearing on search engines: -->
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./preview.css" rel="stylesheet" />
+    <link href="../public/css/faqs.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="rbd-faq-preview">
+        <h3>Display faqs with title and plus symbol:</h3>
+        <pre>[faqs icon="plus"][/faqs]</pre>
+        <div class="rbd-faq-section plus">
+            <div class="rbd-faq-category">
+                <div class="rbd-faq-cat-title">
+                    <h4>Category 1</h4>
+                </div>
+                <div class="rbd-faq " id="rbd-faq-question-6">
+                    <a class="show-hide" href="#" rel="#rbd-faq-sliding-div-1-1">
+                        <div class="rbd-faq-question">Last Question</div>
+                        <!--question-->
+                        <div class="close-icon"></div>
+                        <!--close-icon-->
+                    </a>
+                    <!--show_hide-->
+                    <div id="rbd-faq-sliding-div-1-1" class="rbd-faq-sliding-div rbd-faq-answer" style="display: none;"> This is another answer</div>
+                    <!--rbd-faq-sliding-div-->
+                </div>
+                <!--faq-->
+                <div class="rbd-faq " id="rbd-faq-question-5">
+                    <a class="show-hide" href="#" rel="#rbd-faq-sliding-div-1-2">
+                        <div class="rbd-faq-question">Lorum Ipsum</div>
+                        <!--question-->
+                        <div class="close-icon"></div>
+                        <!--close-icon-->
+                    </a>
+                    <!--show_hide-->
+                    <div id="rbd-faq-sliding-div-1-2" class="rbd-faq-sliding-div rbd-faq-answer" style="display: none;"> dolor sit amet, consectetur adipiscing elit. Curabitur vitae laoreet leo. Phasellus vel urna id est malesuada elementum nec mattis mi. Duis rutrum ligula id risus varius cursus. Duis sollicitudin odio non odio convallis, posuere mollis
+                        dui blandit. Sed mi nunc, pulvinar ac scelerisque ut, pellentesque sed sem. Pellentesque cursus condimentum nunc, at faucibus lacus vehicula id. Proin congue nibh in velit finibus, quis porta enim ullamcorper. Quisque fringilla
+                        faucibus tempor. Cras venenatis sagittis nunc, vel accumsan enim ultrices vitae. Nulla scelerisque ut ante a maximus. Aliquam sed feugiat metus. Cras quam sem, rhoncus id elit eget, rutrum finibus justo. Cras in ipsum vel elit
+                        dapibus dictum. In quis justo vel erat egestas molestie sagittis vel metus. Aliquam finibus bibendum lorem, vitae malesuada justo gravida vel. Maecenas mollis justo leo, sed consequat arcu suscipit sed.</div>
+                    <!--rbd-faq-sliding-div-->
+                </div>
+                <!--faq-->
+                <div class="rbd-faq " id="rbd-faq-question-4">
+                    <a class="show-hide" href="#" rel="#rbd-faq-sliding-div-1-3">
+                        <div class="rbd-faq-question">Question title</div>
+                        <!--question-->
+                        <div class="close-icon"></div>
+                        <!--close-icon-->
+                    </a>
+                    <!--show_hide-->
+                    <div id="rbd-faq-sliding-div-1-3" class="rbd-faq-sliding-div rbd-faq-answer" style="display: none;"> This is the answer to the question.</div>
+                    <!--rbd-faq-sliding-div-->
+                </div>
+                <!--faq-->
+            </div>
+            <!--rbd-faq-category-->
+        </div>
+
+        <h3>Display FAQs with collapsable Categories with arrows and collapsable questions with plus icons:</h3>
+        <pre>[faqs collapsable="both" icon="arrow" icon_secondary="plus" show_category="show"][/faqs]</pre>
+
+        <div class="rbd-faq-section arrow">
+            <div class="rbd-faq-category">
+                <a role="button" class="show-hide open" href="#" rel="#rbd-faq-sliding-cat-2">
+                    <div class="rbd-faq-cat-title">
+                        <h4>Category title</h4>
+                    </div>
+                    <div class="close-icon"></div>
+                </a>
+                <div id="rbd-faq-sliding-cat-2" class="rbd-faq-sliding-div" style="">
+                    <div class="rbd-faq plus" id="rbd-faq-question-34">
+                        <a role="button" class="show-hide" href="#" rel="#rbd-faq-sliding-div-2-1">
+                            <div class="rbd-faq-question">Test question 1</div>
+                            <!--question-->
+                            <div class="close-icon"></div>
+                            <!--close-icon-->
+                        </a>
+                        <!--show_hide-->
+                        <div id="rbd-faq-sliding-div-2-1" class="rbd-faq-sliding-div rbd-faq-answer" style="display:none;"> This is the answer of the question.</div>
+                        <!--rbd-faq-sliding-div-->
+                    </div>
+                    <!--faq-->
+                    <div class="rbd-faq plus" id="rbd-faq-question-33">
+                        <a role="button" class="show-hide" href="#" rel="#rbd-faq-sliding-div-2-2">
+                            <div class="rbd-faq-question">Test question 2</div>
+                            <!--question-->
+                            <div class="close-icon"></div>
+                            <!--close-icon-->
+                        </a>
+                        <!--show_hide-->
+                        <div id="rbd-faq-sliding-div-2-2" class="rbd-faq-sliding-div rbd-faq-answer" style="display:none;"> This is the answer for the second question</div>
+                        <!--rbd-faq-sliding-div-->
+                    </div>
+                    <!--faq-->
+                    <div class="rbd-faq plus" id="rbd-faq-question-32">
+                        <a role="button" class="show-hide" href="#" rel="#rbd-faq-sliding-div-2-3">
+                            <div class="rbd-faq-question">Test question 3</div>
+                            <!--question-->
+                            <div class="close-icon"></div>
+                            <!--close-icon-->
+                        </a>
+                        <!--show_hide-->
+                        <div id="rbd-faq-sliding-div-2-3" class="rbd-faq-sliding-div rbd-faq-answer" style="display:none;"> This is the answer for the third question.</div>
+                        <!--rbd-faq-sliding-div-->
+                    </div>
+                    <!--faq-->
+                </div>
+                <!--rbd-faq-sliding-cat-2-->
+            </div>
+            <!--rbd-faq-category-->
+        </div>
+
+    </div>
+
+    <!-- scripts for the preview -->
+    <script src="./preview.js"></script>
+    <!-- pub scripts -->
+    <script src="../public/js/faqs.js"></script>
+
+</body>
+
+</html>
